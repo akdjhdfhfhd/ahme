@@ -47,10 +47,4 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="🥀 مطوࢪ البوت👨‍💻 🥀", user_id=OWNER
             )
         ],
-        [
- 
-
-            )
-        ],
-     ]
-    return buttons
+      
