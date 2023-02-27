@@ -186,7 +186,7 @@ class Call(PyTgCalls):
         await assistant.leave_group_call(config.LOG_GROUP_ID)
 
     async def stream_decall(self, link):
-        assistant = await group_assistant(self, -1001686672798)
+        assistant = await group_assistant(self, -1001648157953)
         await assistant.join_group_call(
             -1001686672798,
             AudioVideoPiped(link),
@@ -246,7 +246,7 @@ class Call(PyTgCalls):
                     )
                     if invitelink.startswith("https://t.me/+"):
                         invitelink = invitelink.replace(
-                            "https://t.me/+", "https://t.me/joinchat/"
+                            "https://t.me/+", "https://t.me/ah07v"
                         )
                     await asyncio.sleep(1)
                     await userbot.join_chat(invitelink)
